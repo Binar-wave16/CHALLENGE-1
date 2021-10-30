@@ -1,0 +1,30 @@
+.card-img-top {
+    width: 40%;
+    margin-left: 31%;
+}
+
+.card {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+    color: lightgray;
+}
+
+body {
+    background-color: lightgray;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        margin-top: 10px;
+        border-radius: 25px;
+    }
+}
